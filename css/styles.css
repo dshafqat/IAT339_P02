@@ -353,3 +353,72 @@ section{
     margin-bottom: 1rem;
     flex-wrap: wrap;
 }
+#payment-sect section{
+}
+.payment-parent{
+  background-color: #f5f5f5;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-left: 0.9em;
+  position: relative;
+  padding-top: 0.9em;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap:wrap;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  justify-content:flex-start;
+  align-items: center;
+}
+.payment-2nd{
+  width: 50%;
+  display: block;
+}
+.payment-child{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+.payment-child-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.payment-child-3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 1.5em;
+}
+.exp {
+  width:25% !important;
+}
+.check{
+  width: 10% !important;
+  margin: 0 0 0 0;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  padding-right:1em;
+  padding: 0;
+  display: block;
+  position: relative;
+  left:0;
+}
+.payment-2nd h3{
+  padding-bottom: 10px;
+}
+.payment-2nd input{
+  border: 0 solid #FFFFFF;
+  width:100%;
+  height:2.5em;
+}

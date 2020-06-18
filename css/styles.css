@@ -301,6 +301,10 @@ section{
   padding-bottom: 56.25%; /* 16:9 */
   position: relative;
   padding-top: 0.9em;
+  display: inline-flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .featured-child {
   position: absolute;
@@ -311,4 +315,10 @@ section{
 #home-nav img{
   width:2.5%;
   height:2.5%;
+}
+.grid-wrapper {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
 }

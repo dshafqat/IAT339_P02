@@ -48,13 +48,14 @@ section{
     border: none;
     padding: 0.50em;
     display: inline-block;
-    text-decoration: none;
+    float: center;
+
 }
 
 /*main navigation styles*/
 .main-nav nav{
   display: block;
-  padding:0.8rem;
+  padding:rem;
   margin: 0;
   background-color: #0D1926;
   text-align: center;
@@ -213,6 +214,7 @@ section{
     position: relative;
     display: block;
     width: 22%;
+
 }
 
 .product-listing img {
@@ -256,6 +258,7 @@ section{
     width: 100%;
     margin-bottom: 1rem;
     flex-wrap: wrap;
+    
 }
 
 .column {

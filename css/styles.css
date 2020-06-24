@@ -485,3 +485,49 @@ section{
   padding: 0.9em;
   overflow: hidden;
 }
+
+/*Product listing page
+*/
+.product_main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.product_listing{
+  padding: 0.7em;
+  margin-bottom: 2em;
+  text-align: center;
+  max-width: 100%;
+}
+
+.product_listing img{
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.product_listing:hover, .product_listing:focus{
+    opacity: 1;
+    box-shadow: 2px 2px 3px 3px rgb(200,200,200);
+}
+
+
+
+@media (min-width:400px) {
+  .product_right_column button{
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+}
+
+@media (min-width: 900px) {
+  body{
+  
+  }
+
+
+  

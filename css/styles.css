@@ -524,19 +524,6 @@ section{
   padding: 0.9em;
   overflow: hidden;
 }
-.contact-desc-2{
-  margin-top: 1.9em;
-  display: flex;
-  width: 100%;
-  height: 420px;
-  background-color: #0D1926;
-  color: #F5F5F5;
-  padding: 0.9em;
-  overflow: hidden;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
 
 
 
@@ -583,14 +570,6 @@ section{
     box-shadow: 2px 2px 3px 3px rgb(200,200,200);
 }
 
-
-
-@media (min-width:400px) {
-  .product_right_column button{
-    padding-left: 7em;
-    padding-right: 7em;
-  }
-}
 
 @media (min-width: 900px) {
   body{
@@ -722,12 +701,9 @@ section{
 
 
 
-
 /*Product listing second page
 */
 
-/*Product listing page
-*/
 .product_second{
   display: flex;
   flex-wrap: wrap;
@@ -762,7 +738,6 @@ section{
 
   max-width: 100%;
   height: auto;
-  cursor: pointer;
 }
 
 .product_listing2:hover, .product_listing2:focus{
@@ -771,42 +746,20 @@ section{
 }
 
 
+@media (min-width: 200px) {
+  .product-second{
 
-@media (min-width:400px) {
-  .product_right_column button{
-    padding-left: 7em;
-    padding-right: 7em;
+
+
   }
-}
+
+  }
 
 @media (min-width: 900px) {
-  body{
-
-  }
 
  .product_listing2{
     max-width: 30%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -831,7 +784,7 @@ section{
 .sort-menu{
 
       margin-left: 3rem;
-      padding-top: 1.9em;
+
 
 }
 
@@ -1082,10 +1035,7 @@ display: inline-block;
   margin-left: 4rem;
 }
 
-.support-child h5 {
-  text-decoration: none;
-  color: #6C6E70;
-}
+
 
 
 hr {
@@ -1096,16 +1046,4 @@ hr {
     margin: 1em 0;
     padding: 0;
     margin-right: 3rem;
-}
-
-.three-phones{
-
-  text-align: center;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
-
-}
-.three-phones img{
-    width: 80%;
-    height: 80%;
 }

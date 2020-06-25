@@ -524,6 +524,19 @@ section{
   padding: 0.9em;
   overflow: hidden;
 }
+.contact-desc-2{
+  margin-top: 1.9em;
+  display: flex;
+  width: 100%;
+  height: 420px;
+  background-color: #0D1926;
+  color: #F5F5F5;
+  padding: 0.9em;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
 
 /*Product listing page
 */
@@ -981,7 +994,10 @@ display: inline-block;
   margin-left: 4rem;
 }
 
-
+.support-child h5 {
+  text-decoration: none;
+  color: #6C6E70;
+}
 
 
 hr {

@@ -557,7 +557,10 @@ section{
 
 }
 
+.mostpopular {
+  box-shadow: 5px 10px 8px 5px rgba(200,200,200,0.9);
 
+}
 .mostpopular h2 {
 
   margin-left: 4em;

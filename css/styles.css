@@ -520,7 +520,6 @@ section{
   max-width: 100%;
   height: auto;
   cursor: pointer;
-  opacity: 0.8;
 }
 
 .product_listing:hover, .product_listing:focus{
@@ -537,7 +536,7 @@ section{
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   body{
   
   }
@@ -579,7 +578,6 @@ section{
 
 .filters a{
   text-decoration: none;
-  color: #;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;

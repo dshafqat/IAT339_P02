@@ -8,9 +8,8 @@
   <link href="css/flexbox.css" rel="stylesheet">
     <title>P2 WEB</title>
   </head>
-
   <body>
-          <section>
+          <section class="navnav">
                   <nav id="home-nav">
                   <img src="images/logo.png" alt="company-logo"/>
                     <div class="center">
@@ -31,8 +30,19 @@
           <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
-            <div class="carousel">
+            <div class="carousel fade">
               <div class="numbertext">1 / 3</div>
+              <div class="text">A SERIES OF POSSIBILITIES</div>
+              <img src="https://images.samsung.com/ca/smartphones/galaxy-s20/images/kv/galaxy-s20_highlights_kv_00.jpg" style="width:100%">
+              <div class="text-bot">TURN UP YOUR STYLE</div>
+            </div>
+            <div class="carousel  fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://images.samsung.com/ca/smartphones/galaxy-s20/images/kv/galaxy-s20_highlights_kv_00.jpg" style="width:100%">
+              <!--<div class="text">Caption Text</div>-->
+            </div>
+            <div class="carousel  fade">
+              <div class="numbertext">3 / 3</div>
               <img src="https://images.samsung.com/ca/smartphones/galaxy-s20/images/kv/galaxy-s20_highlights_kv_00.jpg" style="width:100%">
               <!--<div class="text">Caption Text</div>-->
             </div>
@@ -48,7 +58,9 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
+          <div class="button-center">
 
+          </div>
           <div class="button-center">
             <a class="button" href="products2.html">LEARN MORE</a>
           </div>
@@ -59,7 +71,7 @@
           <!-- Slideshow container -->
           <div class="slideshow-container">
             <!-- Full-width images with number and caption text -->
-            <div class="carousel">
+            <div class="carousel2 fade">
               <div class="numbertext">1 / 3</div>
               <img src="https://img.global.news.samsung.com/global/wp-content/uploads/2020/02/Press-Thumbnail-1000x563-Galaxy-S20.jpg" style="width:100%">
               <!--<div class="text">Caption Text</div>-->
@@ -80,20 +92,32 @@
           <div class="button-center">
             <a class="button" href="products2.html">SHOP NOW</a>
           </div>
+          <div class="button-center">
+
+          </div>
         </section>
 
         <section id="featured">
-          <div class="featured-parent">
-            <div class="featured-child">
+          <div class="featured-parent-high">
+            <div class="featured-parent">
+              <div class="featured-child">
+                  <h2> AN ALL NEW 4 SMARTWATCH</h2>
+                  <h4> So good that you'd forgot it's a watch.</h4>
+                  <img src="images/smartwatch.png" alt="smartwatch">
+              </div>
 
+              <div class="featured-child">
+                  <h2> MUSIC YOUR WAY THROUGH YOUR DAY</h2>
+                  <h4> Stay focused with 4 powerful sounds</h4>
+                  <img src="images/earphone.jpg" alt="earphone">
+              </div>
             </div>
-
-            <div class="featured-child">
-
-            </div>
-
-            <div class="featured-child-2">
-
+            <div class="featured-parent">
+              <div class="featured-child">
+                    <h2> IT'S NOT JUST A SCREEN</h2>
+                    <h4> It's your companion</h4>
+                    <img src="images/ipad.png" alt="tablet">
+              </div>
             </div>
           </div>
         </section>
@@ -120,5 +144,37 @@
         <section>
           <a href="citations.html">Citations</a>
         </section>
+
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          // Next/previous controls
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          // Thumbnail image controls
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("carousel");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+        </script>
+
   </body>
 </html>

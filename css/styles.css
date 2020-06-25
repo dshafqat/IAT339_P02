@@ -11,6 +11,8 @@ body{
   font-weight: 300 !important;
   color: #0D1926;
   display: block;
+  margin:0px;
+  top:0;
 }
 h1{
   font-family: "Questrial", sans-serif;
@@ -30,16 +32,15 @@ a{
   font-weight: bold;
 }
 
-
 section{
-  margin-block-start: 0.90em;
-  margin-block-end: 0.90em;
+  margin:0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
 .button-center{
   padding-top: 0.9em;
+  padding-bottom: 0.9em;
   text-align: center;
 }
 
@@ -205,13 +206,13 @@ section{
 /*carousel styles*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
+  min-height: 100vh;
 }
 
 /* Hide the images by default */
-.mySlides {
+.carousel {
   display: none;
 }
 
@@ -244,11 +245,25 @@ section{
 
 /* Caption text */
 .text {
+  padding-top: 0.9em;
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 50px;
+  font-family: "Questrial";
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  top: 48px;
+  left:108px;
+  width: 100%;
+}
+.text-bot {
+  padding-top: 0.9em;
+  color: #f2f2f2;
+  font-size: 50px;
+  font-family: "Questrial";
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 18px;
+  left:48px;
   width: 100%;
   text-align: center;
 }
@@ -296,31 +311,54 @@ section{
   to {opacity: 1}
 }
 
-.featured-parent{
+.featured-parent-high{
   background-color: #F6AC67;
-  padding-bottom: 56.25%; /* 16:9 */
   position: relative;
   padding-top: 0.9em;
+  padding-bottom: 0.9em;
   display: flex;
   margin-bottom: 1rem;
   flex-wrap: wrap;
   width: 100%;
   overflow: auto;
-  justify-content: space-around;
+  justify-content:space-around;
   align-items: center;
   align-content: center;
+  min-height: 1200px;
+}
+
+.featured-parent{
+  background-color: #F6AC67;
+  position: relative;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+  min-height: 800px;
 }
 .featured-child {
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin:8px;
   background-color: #FFFFFF;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.9em;
+  overflow: hidden;
+}
+.featured-child img{
+  width: 60%;
 }
 .featured-child-2{
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin:8px;
   background-color: #FFFFFF;
 }
@@ -543,14 +581,14 @@ section{
 
 @media (min-width: 900px) {
   body{
-  
+
   }
 
  .product_listing{
     max-width: 30%;
   }
 
-  
+
 
 /*Filter*/
 
@@ -702,7 +740,7 @@ section{
 
 .product-details{
   display: inline-block;
-  background-color: white; 
+  background-color: white;
   width: 100%
 }
 
@@ -715,11 +753,11 @@ section{
 }
 
 .product-name{
-    display:inline-block; 
+    display:inline-block;
     margin-top:%;
 }
 .product-price{
-    display:inline-block; 
+    display:inline-block;
     margin-top:3%;
 }
 
@@ -730,13 +768,13 @@ section{
   display: block;
   float:right;
   margin-right: 10%;
-  
+
 }
 
 .total-amount{
   display: block;
    float:right;
-  
+
 }
 
 
@@ -805,7 +843,7 @@ text-align: center;
     width: 100%;
     margin-bottom: 1rem;
     flex-wrap: wrap;
-    
+
    }
 
 .column {
@@ -829,7 +867,7 @@ text-align: center;
     left: 0px;
     right: 0px;
     float: center;
-   
+
 }
 
 .bimage img{
@@ -837,7 +875,7 @@ text-align: center;
     height: auto;
     left: 0px;
     right: 0px;
-   
+
 }
 
 /*Product description page*/
@@ -859,11 +897,11 @@ text-align: center;
 }
 
 .name-of-product{
-    display:inline-block; 
+    display:inline-block;
     margin-top:2%;
 }
 .info-of-product{
-    display:inline-block; 
+    display:inline-block;
     margin-top:2%;
     float: right;
 }
@@ -942,6 +980,7 @@ display: inline-block;
 
 
 
+
 hr {
     display: block;
     height: 1px;
@@ -951,5 +990,3 @@ hr {
     padding: 0;
     margin-right: 3rem;
 }
-
-

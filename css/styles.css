@@ -206,13 +206,13 @@ section{
 /*carousel styles*/
 /* Slideshow container */
 .slideshow-container {
-
   position: relative;
   margin: auto;
+  min-height: 100vh;
 }
 
 /* Hide the images by default */
-.mySlides {
+.carousel {
   display: none;
 }
 
@@ -245,11 +245,25 @@ section{
 
 /* Caption text */
 .text {
+  padding-top: 0.9em;
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 50px;
+  font-family: "Questrial";
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  top: 48px;
+  left:108px;
+  width: 100%;
+}
+.text-bot {
+  padding-top: 0.9em;
+  color: #f2f2f2;
+  font-size: 50px;
+  font-family: "Questrial";
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 18px;
+  left:48px;
   width: 100%;
   text-align: center;
 }

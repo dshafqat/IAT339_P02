@@ -786,6 +786,43 @@ section{
 
 }
 
+.submit-button {
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    text-align: center;
+    background-color: #0d1926;
+    transition-duration: 0.5s;
+    color: white;
+    border: none;
+    padding: 0.50em;
+    display: inline-block;
+    text-decoration: none;
+}
+.submit-button:hover {
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    background-color: white;
+    transition-duration: 0.5s;
+    color: #0d1926;
+    border: none;
+    padding: 0.50em;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.submit-button a {
+    padding: 0.9em;
+    background-color: #0d1926;
+    transition-duration: 0.5s;
+    color: white;
+    border: none;
+    padding: 0.50em;
+    display: inline-block;
+    text-decoration: none;
+
+}
 
 
 .sort-menu{

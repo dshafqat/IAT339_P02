@@ -766,10 +766,12 @@ section{
 
 @media (min-width: 900px) {
 
- .product_listing2{
-    max-width: 30%;
+ .three-phones img{
+    max-width:40%;
     padding-bottom: 1.9em;
   }
+
+}
 
 
 

@@ -595,16 +595,26 @@ section{
     max-width: 30%;
   }
 
+}
+
+
+
 
 
 /*Filter*/
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
 
 .filters-container{
 
   width: 40%;
   margin-left: 6rem;
   margin-bottom:9rem;
+  margin-top: 4rem;
 
 
 }
@@ -623,7 +633,6 @@ section{
   font-weight: 300;
   letter-spacing: 1px;
   padding-left: .5em;
-  /*padding-bottom: .5em;*/
 
 }
 
@@ -646,6 +655,7 @@ section{
   position: absolute;
   width: 100%;
   display: none;
+  background-color: #FFFFFF;
   box-shadow: 2px 5px 15px #D0D0D0;
 }
 
@@ -712,12 +722,26 @@ section{
 }
 
 
-  }
+@media (min-width: 900px) {
+
+ .filters-products{
+    max-width: 50%;
+ }
+  
+
+}
+
 
 
 
 /*Product listing second page
 */
+
+
+.products2-heading{
+
+  margin-top: 2rem;
+}
 
 .product_second{
   display: flex;
@@ -764,10 +788,12 @@ section{
 
 @media (min-width: 900px) {
 
- .product_listing2{
-    max-width: 30%;
+ .three-phones img{
+    max-width:40%;
     padding-bottom: 1.9em;
   }
+
+}
 
 
 

@@ -472,6 +472,21 @@ section{
   justify-content:flex-start;
   align-items: center;
 }
+.about-parent-high{
+  background-color: #f5f5f5;
+  /*padding-bottom: 56.25%; /* 16:9 window size */
+  position: relative;
+  padding-top: 0.9em;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap:wrap;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  justify-content:flex-start;
+  align-items: center;
+}
+
 .payment-2nd{
   width: 50%;
   display: block;
@@ -542,6 +557,14 @@ section{
   text-align: center;
   color: #F5F5F5;
 }
+.about-top h1{
+  padding: 0.9em;
+  color: white;
+}
+.about-top p {
+  font-size: 25px;
+  line-height: 1.6;
+}
 
 .about-parent{
   background-color: #F5F5F5;
@@ -557,27 +580,70 @@ section{
   align-items: center;
   align-content: center;
   height: auto;
+  line-height: 1.6;
 }
 .about-child {
+  line-height: 1.6;
   display: flex;
-  width: 200px;
-  height: 200px;
+  width:40%;
   margin:8px;
-  background-color: #0D1926;
-  color: #F5F5F5;
+  color: #0D1926;
   justify-content: center;
-  align-items: center;
-  align-content: center;
+  align-items:flex-start;
+  align-content:flex-start;
+  text-align: left;
+  height:400px;
+  padding-top:1.5em;
 }
+.about-child h2{
+  font-family: "Questrial";
+  font-size: 40px;
+}
+.about-child ol{
+  font-weight:900;
+  font-size: 25px;
+  padding: 0.9em;
+}
+.about-child ul{
+  font-weight: normal;
+  padding: 0.9em;
+  font-size: 15px;
+}
+
 .about-desc{
-    margin-top: 1.9em;
+  line-height: 1.6;
   display: flex;
   width: 100%;
-  height: 120px;
-  background-color: #0D1926;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url("../images/stock-1.jpeg") no-repeat;
+  height: 500px;
+  background-size: auto auto;
+  background-position: center;
   color: #F5F5F5;
   padding: 0.9em;
   overflow: hidden;
+  margin-bottom: 1.9em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.desc-child{
+  padding: 0.9em;
+  line-height: 1.6;
+}
+.desc-child h2{
+  font-family: "Questrial";
+  font-size: 40px;
+}
+.desc-child p{
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  font-size: 20px;
+  text-align: center;
+
 }
 .about-desc-2{
   margin-top: 1.9em;
@@ -1204,7 +1270,7 @@ text-align: center;
 .red1 img{
 
     margin-left: 0.5rem;
-   
+
 
 
 }
@@ -1400,7 +1466,7 @@ hr {
 
 .filters-drop-down2 ul{
   padding: 4px;
-  
+
 }
 
 .filters-drop-down2 a{
@@ -1567,7 +1633,7 @@ hr {
   -webkit-display: flex;
   display: flex;
   margin-top: 20px;
- 
+
   margin-left: 0;
 }
 

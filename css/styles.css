@@ -1401,3 +1401,73 @@ hr {
   float:right;
   margin-left: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .prev, .next, .numbertext{
+    display: none;
+  }
+  .slideshow-container{
+    min-height:10vh;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .text {
+    top:0;
+    text-align: center;
+    padding: 0 0 0 1.5em;
+    font-size:20px;
+  }
+  .text-bot{
+    top:15;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    max-height:inherit;
+  }
+  .sub-text p{
+    font-size:15px;
+    display:none;
+  }
+  .sub-text-2{
+    font-size: 15px;
+    display: none;
+  }
+  .spec-child img {
+    max-width:none;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: fill;
+  }
+  .spec-child{
+    min-height: 100px;
+    min-width: 100%;
+    padding: 0 5px 0 5px;
+  }
+  .spec-child p {
+    font-size:15px;
+    font-weight: bold;
+  }
+  .spec-parent{
+    justify-content: center;
+    flex-direction: column;
+    text-align:left;
+    height:300px;
+    padding:0;
+  }
+  .ipad {
+    min-height: 100px;
+    width:100%;
+  }
+  .support-parent{
+    padding: 0;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+
+  }
+  .support-child{
+        width:100%;
+  }
+}

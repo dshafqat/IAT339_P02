@@ -754,7 +754,7 @@ section{
 .mostpopular {
   box-shadow: 5px 10px 8px 5px rgba(200,200,200,0.9);
 
-  margin:3rem;
+  margin:5%;
 
 }
 .mostpopular h2 {
@@ -792,6 +792,7 @@ section{
  .product_listing{
     max-width: 30%;
   }
+
 
 }
 
@@ -1551,10 +1552,24 @@ hr {
 
 }
 
-.filters-drop-down2 a:hover{
 
+.specs hr{
 
+   display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0D1926;
+    margin: 1em 0;
+    padding: 0;
 }
+
+
+.specs{
+
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
 
 .filters-overview:hover .overview{
   display: block;

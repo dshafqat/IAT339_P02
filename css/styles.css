@@ -556,10 +556,21 @@ section{
   background-color: #0D1926;
   text-align: center;
   color: #F5F5F5;
+
+}
+.about-top input{
+  margin-top: 1.9em;
+  padding:0.3em;
+  width:450px;
+}
+.about-top h2{
+     font-family: "Questrial";
+     font-size: 40px;
 }
 .about-top h1{
   padding: 0.9em;
   color: white;
+  font-family: "Questrial";
 }
 .about-top p {
   font-size: 25px;
@@ -600,16 +611,37 @@ section{
   font-size: 40px;
 }
 .about-child ol{
+  font-family: "Questrial";
   font-weight:900;
   font-size: 25px;
   padding: 0.9em;
+  padding-top: 0;
 }
 .about-child ul{
+  font-family: "Nunito";
   font-weight: normal;
   padding: 0.9em;
   font-size: 15px;
 }
-
+.newsletter-desc{
+  line-height: 1.6;
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5));
+  height: 600px;
+  background-size: auto auto;
+  background-position: center;
+  color: #F5F5F5;
+  padding: 0.9em;
+  overflow: hidden;
+  margin-bottom: 1.9em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 .about-desc{
   line-height: 1.6;
   display: flex;
@@ -656,6 +688,7 @@ section{
   overflow: hidden;
 }
 
+
 .contact-desc-2{
   margin-top: 1.9em;
   display: flex;
@@ -670,7 +703,34 @@ section{
   align-content: center;
 }
 
-
+.signup{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding-left: 0;
+}
+.signup input{
+  margin-top: 0.9em;
+  padding: 0.5em 0 0.5em 0.5em;
+  width: 400px;
+}
+.signup label{
+  padding-top: 1.9em;
+}
+.submit-reset-button-2 {
+    background-color: #0d1926;
+    transition-duration: 0.5s;
+    color: white;
+    border: none;
+    width:120px;
+    height: 40px;
+    text-align: center;
+    padding: 0.50em;
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
 .tablet-container{
   text-align: center;
   margin-bottom: 1em;
@@ -1612,6 +1672,52 @@ hr {
   }
   .navnav{
     background-color: #0D1926;
+  }
+  /*about page*/
+  .about-parent-high h2{
+    text-align: center;
+  }
+  .about-parent{
+    flex-direction: column;
+  }
+  .about-child{
+    width: auto;
+    height: auto;
+  }
+  .about-desc{
+    height: 700px;
+  }
+  .about-desc h2{
+    font-size: 40px;
+    text-align: center;
+  }
+  .about-desc p{
+    font-size: 16px;
+  }
+  .newsletter-desc h2{
+    font-size: 40px;
+  }
+  .desc-child {
+    padding: 0 0.5em 0 0.5em;
+  }
+  .desc-child p {
+    font-size: 16px;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+  }
+  .newsletter-desc{
+    height: 800px;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .signup{
+    padding: 1.9em;
+    justify-content: center;
+  }
+  .signup input{
+    width:200px;
+  }
+  .submit-reset-button-2{
+    margin-top: 1.5em;
   }
 }
 

@@ -1271,7 +1271,7 @@ hr {
   margin-right: 2%;
 }
 
-.filters-drop-down{
+.filters-drop-down2{
   position: relative;
   width: 100%;
   display: none;
@@ -1280,30 +1280,30 @@ hr {
 }
 
 
-.filters-drop-down li{
+.filters-drop-down2 li{
   list-style-type: none;
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
-.filters-drop-down a{
+.filters-drop-down2 a{
   text-decoration: none;
   color: #0D1926;
   font-size: 10px;
   letter-spacing: 2px;
 
 }
-.filters-drop-down li:hover{
+.filters-drop-down2 li:hover{
 
   background-color: #0D1926;
 }
-.filters-drop-down li:hover a{
+.filters-drop-down2 li:hover a{
   color: #FFF;
   font-weight: 400;
   cursor: pointer;
 }
 
-.filters-drop-down a:hover{
+.filters-drop-down2 a:hover{
 
 }
 
@@ -1329,7 +1329,7 @@ hr {
 
 @media (min-width: 900px) {
 
- .filters-drop-down{
+ .filters-drop-down2{
 
  }
   

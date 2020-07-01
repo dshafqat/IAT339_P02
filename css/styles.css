@@ -1470,4 +1470,10 @@ hr {
   .support-child{
         width:100%;
   }
+  #home-nav img{
+    display: none;
+  }
+  .navnav{
+    background-color: #0D1926;
+  }
 }

@@ -333,22 +333,7 @@ section{
 }
 
 .featured-parent-high{
-  background-color: #F6AC67;
-  position: relative;
-  padding-top: 0.9em;
-  padding-bottom: 0.9em;
-  display: flex;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  width: 100%;
-  overflow: auto;
-  justify-content:space-around;
-  align-items: center;
-  align-content: center;
-  min-height: 1200px;
-}
-
-.featured-parent{
+  margin-top: 2.5em;
   background-color: #F6AC67;
   position: relative;
   padding-top: 0.9em;
@@ -363,25 +348,47 @@ section{
   align-content: center;
   min-height: 800px;
 }
+
+.featured-parent{
+  background-color: #F6AC67;
+  position: relative;
+  padding: 1.2em;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+  min-height: 800px;
+}
 .featured-child {
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   margin:8px;
   background-color: #FFFFFF;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 0.9em;
+  padding: 1.2em;
   overflow: hidden;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 .featured-child img{
   width: 60%;
 }
-.featured-child-2{
-  display: block;
-  width: 500px;
-  height: 500px;
-  margin:8px;
-  background-color: #FFFFFF;
+.featured-child h2{
+  font-size:18px;
+}
+.ipad{
+  padding-top: 2em;
+  min-height: 216.97px;
+}
+.img-container{
+  text-align: center;
+  padding-top: 1em;
 }
 .support-parent{
   background-color: #f5f5f5;
@@ -598,7 +605,10 @@ section{
 }
 
 
-
+.tablet-container{
+  text-align: center;
+  margin-bottom: 1em;
+}
 
 
 
@@ -1244,7 +1254,7 @@ text-align: center;
 .image-header img{
   background-color: black;
   width: 100%;
-  max-height:772.25px;
+  max-height:80%;
 }
 hr {
     display: block;
@@ -1370,7 +1380,7 @@ hr {
  .filters-drop-down2{
 
  }
-  
+
 
 }
 

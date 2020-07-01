@@ -754,6 +754,8 @@ section{
 .mostpopular {
   box-shadow: 5px 10px 8px 5px rgba(200,200,200,0.9);
 
+  margin:3rem;
+
 }
 .mostpopular h2 {
 
@@ -1412,7 +1414,7 @@ text-align: center;
 .price-of-product{
 
   text-align: right;
-  margin-right: 3rem;
+  margin-right: 5rem;
   margin-top: 2rem;
 }
 
@@ -1420,7 +1422,7 @@ text-align: center;
 
 .descrip2{
   margin-top: 4rem;
-
+  margin-right: 4rem;
   margin-left: 4rem;
 }
 
@@ -1520,6 +1522,7 @@ hr {
   display: none;
   background-color: #FFFFFF;
   box-shadow: 2px 5px 15px #D0D0D0;
+  padding: 2rem;
 
 }
 
@@ -1584,7 +1587,7 @@ hr {
 .checkout-button{
 
   text-align: right;
-  margin-right: 3rem;
+  margin-right: 5rem;
   margin-top: 1rem;
 }
 

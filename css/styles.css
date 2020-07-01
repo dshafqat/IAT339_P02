@@ -1076,6 +1076,12 @@ text-align: center;
 
 
 
+
+
+
+
+
+
 /*Product description page*/
 
 
@@ -1084,26 +1090,33 @@ text-align: center;
  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 3rem;
   text-align: left;
+  margin-top: 3%;
 }
 
 .product-image{
-  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
   height: auto;
 }
 
 .name-of-product{
     display:inline-block;
-    margin-top:2%;
-    margin-left: 4rem;
+    margin-top:3%;
+    margin-left: 3rem;
 
 }
 .info-of-product{
     display:inline-block;
-    margin-top:2%;
+    margin-top:4%;
     float: right;
     font-size: 11px;
+}
+
+.info-of-product p{
+    font-size: 15px;
+
 }
 
 
@@ -1122,17 +1135,21 @@ text-align: center;
 
 .options{
 
+  /*margin-top:4%;*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 
 
+
 }
 
 
-.red1{
+.red1 img{
 
     margin-left: 0.5rem;
+    opacity: 0.5;
+    transition: opacity 0.5s;
 
 
 }
@@ -1141,13 +1158,14 @@ text-align: center;
 .purple1{
 
     margin-left: 0.5rem;
+    opacity: 0.5;
+    transition: opacity 0.5s;
 
 
 }
 .options img{
 
-    opacity: 0.5;
-    transition: opacity 0.5s;
+
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -1155,25 +1173,13 @@ text-align: center;
 }
 
 
-.overview img{
+
+
+.filters-overview img{
 
     transform: rotate(270deg);
 }
 
-.specifications  img{
-
-    transform: rotate(270deg);
-}
-
-.compare-products img{
-
-    transform: rotate(270deg);
-}
-
-.add-accessories  img{
-
-    transform: rotate(270deg);
-}
 
 
 
@@ -1476,4 +1482,130 @@ hr {
   .navnav{
     background-color: #0D1926;
   }
+}
+
+
+
+
+
+
+
+
+
+/*filter sd card*/
+
+
+
+
+.filters3{
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
+  margin-top: 20px;
+ 
+  margin-left: 0;
+}
+
+.filters a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+}
+
+.filters-products{
+  flex-grow: 1;
+  position: relative;
+}
+
+.filters-series{
+  flex-grow: 1;
+  margin-left: 2%;
+  position: relative;
+}
+
+.filters-products{
+  margin-right: 2%;
+}
+
+.filters-drop-down{
+  position: absolute;
+  width: 100%;
+  display: none;
+  background-color: #FFFFFF;
+  box-shadow: 2px 5px 15px #D0D0D0;
+   text-align: center;
+}
+
+
+
+.filters-drop-down li{
+  list-style-type: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.filters-drop-down a{
+  text-decoration: none;
+  color: #0D1926;
+  font-size: 10px;
+  letter-spacing: 2px;
+
+}
+.filters-drop-down li:hover{
+
+  background-color: #0D1926;
+}
+.filters-drop-down li:hover a{
+  color: #FFF;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.filters-drop-down a:hover{
+  color: #FFF;
+  font-weight: 400;
+}
+
+.filters-products:hover .products{
+  display: block;
+
+}
+
+.filters-series:hover .series{
+  display: block;
+
+}
+.filters-products:focus .products{
+  display: block;
+
+}
+
+.filters-series a:focus .series{
+  cursor: pointer;
+  display: block;
+
+}
+.filters-products a:focus .products{
+  cursor: pointer;
+  display: block;
+
+}
+.filters-series a:hover{
+  cursor: pointer;
+}
+
+.filters-products a:hover{
+  cursor: pointer;
+}
+
+
+@media (min-width: 900px) {
+
+ .filters-products{
+    max-width: 50%;
+ }
+
+
 }

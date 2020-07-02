@@ -687,8 +687,34 @@ section{
   padding: 0.9em;
   overflow: hidden;
 }
+.faq{
 
-
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0.9em;
+  justify-content: center;
+  width: 550px;
+}
+.faq h4{
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+}
+.faq ul,p{
+  padding-left: 1.9em;
+  padding-top: 0.5em;
+}
+.faq h2{
+  font-family: "Questrial";
+  font-size:35px;
+  padding-bottom: 0.9em;
+    text-align: center;
+}
+.help h2{
+  font-family: "Questrial";
+  font-size: 35px;
+  padding-top: 1em;
+}
 .contact-desc-2{
   margin-top: 1.9em;
   display: flex;

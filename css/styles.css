@@ -530,8 +530,16 @@ section{
   justify-content: flex-start;
   margin-top: 1.5em;
 }
+.cart-child-3{
+  display: block;
+  width: 50%;
+}
 .exp {
   width:25% !important;
+}
+.check2 input{
+  width: 50%;
+  padding-left: 0.2em;
 }
 .check{
   width: 10% !important;
@@ -1686,7 +1694,13 @@ margin-top: 1rem;
 .filters-overview a:hover{
   cursor: pointer;
 }
-
+.remove p {
+  color: #0D1926;
+}
+.remove p:hover {
+  color: #0046BE;
+  transition-duration: 0.3s;
+}
 
 @media (min-width: 900px) {
 
@@ -1838,6 +1852,31 @@ margin-top: 1rem;
   }
   .newsletter-desc h2{
     text-align: center;
+  }
+  .product-descrip  {
+    margin: 0;
+    height: 400px;
+  }
+  .product-descrip img{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+  .name-of-product2{
+    margin-top: 0;
+  }
+  .name-of-product2 input{
+    width: 30%;
+  }
+  .name-of-product2 h3{
+    font-size: 12px;
+  }
+  .remove p {
+    color: #0D1926;
+  }
+  .remove p:hover {
+    color: #0046BE;
+    transition-duration: 0.3s;
   }
 }
 

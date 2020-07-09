@@ -752,14 +752,13 @@ section{
 }
 
 .mostpopular {
-  box-shadow: 5px 10px 8px 5px rgba(200,200,200,0.9);
+  box-shadow: 5px 10px 5px 5px rgba(200,200,200,0.9);
   margin-top: 7rem;
-
 
 }
 .mostpopular h2 {
 
-  margin-left: 4em;
+  margin-left: 3.5em;
 
 
 }
@@ -769,10 +768,11 @@ section{
   margin-bottom: 2em;
   text-align: center;
   max-width: 100%;
+  background-color: white;
+  width: 85%;
 }
 
 .product_listing img{
-
   max-width: 100%;
   height: auto;
   cursor: pointer;
@@ -1200,6 +1200,7 @@ text-align: center;
     width: 22%;
     margin-left: 17%;
     margin-right: 17%;
+
 
 }
 

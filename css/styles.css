@@ -44,7 +44,9 @@ section{
   margin:0;
 
 }
-
+.help {
+  text-align: left;
+}
 .button-center{
   padding-top: 0.9em;
   padding-bottom: 0.9em;
@@ -479,6 +481,7 @@ section{
   /*padding-bottom: 56.25%; /* 16:9 window size */
   position: relative;
   padding-top: 0.9em;
+
   display: flex;
   margin-bottom: 1rem;
   flex-wrap:wrap;
@@ -488,7 +491,14 @@ section{
   justify-content:flex-start;
   align-items: center;
 }
+.about-parent-high h2{
+  padding-bottom: 0.6em;
+}
 
+.call-center{
+  width: 100%;
+  text-align: center;
+}
 .payment-2nd{
   width: 50%;
   display: block;
@@ -579,6 +589,23 @@ section{
   line-height: 1.6;
 }
 
+.about-parent-contact{
+  background-color: #F5F5F5;
+  position: relative;
+  display: flex;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  line-height: 1.6;
+}
+
 .about-parent{
   background-color: #F5F5F5;
   position: relative;
@@ -598,7 +625,9 @@ section{
 .contact-child{
   line-height: 1.6;
   display: flex;
-  width:30%;
+  width:28%;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
   margin:8px;
   color: #0D1926;
   flex-direction: column;
@@ -608,6 +637,9 @@ section{
   text-align: left;
   height:400px;
   padding-top:1.5em;
+}
+.contact-child h4{
+  padding-top: 0.9em;
 }
 .about-child {
   line-height: 1.6;
@@ -1488,7 +1520,7 @@ hr {
     border-top: 3px solid #0D1926;
     margin: 1em 0;
     padding: 0;
-  
+
 }
 
 .three-phones {
@@ -1801,6 +1833,12 @@ margin-top: 1rem;
   }
   .submit-reset-button-2{
     margin-top: 1.5em;
+  }
+  .about-top input{
+    width:50%;
+  }
+  .newsletter-desc h2{
+    text-align: center;
   }
 }
 

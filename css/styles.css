@@ -42,8 +42,7 @@ a{
 
 section{
   margin:0;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+
 }
 
 .button-center{
@@ -90,10 +89,6 @@ section{
     padding:0;
     display: block;
     list-style-type:none;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .main-nav li{
     display: inline-block;
@@ -176,10 +171,7 @@ section{
     margin:0;
     padding:0;
     list-style-type:none;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
     text-align:center;
     position: relative;
     display: inline-block;
@@ -1170,14 +1162,12 @@ margin-bottom: 2rem;
 
 .product-name{
     display:inline-block;
-    margin-top:%;
+
 }
 .product-price{
     display:inline-block;
     margin-top:3%;
 }
-
-
 
 
 .total-text{
@@ -1283,7 +1273,6 @@ text-align: center;
     height: auto;
     left: 0px;
     right: 0px;
-    float: center;
 
 }
 
@@ -1294,11 +1283,6 @@ text-align: center;
     right: 0px;
 
 }
-
-
-
-
-
 
 
 /*Product description page*/
@@ -1393,8 +1377,6 @@ text-align: center;
 
 }
 .options img{
-
-
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -1407,7 +1389,6 @@ text-align: center;
 
 
 .arrow-descrip{
-
     transform: rotate(270deg);
 }
 
@@ -1419,29 +1400,17 @@ text-align: center;
 .options img:hover{
     opacity: 1;
 
-
 }
 
 
 
 .drop-down {
   display:flex;
-  text-align; left;
   flex-direction: column;
   flex-wrap: wrap;
 
 }
 
-.storage h3{
-
-
-}
-
-.sdcard h3{
-
-
-
-}
 
 .storage img{
 
@@ -1498,13 +1467,14 @@ text-align: center;
   max-height:80%;
 }
 hr {
+
     display: block;
     height: 1px;
     border: 0;
     border-top: 3px solid #0D1926;
     margin: 1em 0;
     padding: 0;
-    margin-right: ;
+  
 }
 
 .three-phones {
@@ -1582,7 +1552,6 @@ margin-top: 1rem;
   -webkit-display: flex;
   display: flex;
   margin-top: 20px;
-  text-align; left;
   flex-direction: row;
 
 }
@@ -1593,7 +1562,6 @@ margin-top: 1rem;
 }
 
 .filters-overview a{
-  font-style: bold;
 }
 
 
@@ -1680,11 +1648,10 @@ margin-top: 1rem;
  .filters-drop-down2{
 
  }
-  max-width: 20%;
+
 }
 
 .checkout-button{
-
   text-align: right;
   margin-right: 5rem;
   margin-top: 1rem;

@@ -241,6 +241,7 @@ section{
 /* Hide the images by default */
 .carousel {
   display: none;
+  width: 100%;
 }
 
 /* Next & previous buttons */
@@ -274,7 +275,7 @@ section{
 .text {
   padding-top: 0.9em;
   color: #f2f2f2;
-  font-size: 50px;
+  font-size: 3vw;
   font-family: "Questrial";
   padding: 8px 12px;
   padding-left: 1.5em;
@@ -285,7 +286,7 @@ section{
 .text-bot {
   padding-top: 0.9em;
   color: #f2f2f2;
-  font-size: 50px;
+  font-size: 3vw;
   font-family: "Questrial";
   padding: 8px 12px;
   position: absolute;
@@ -1497,13 +1498,21 @@ text-align: center;
   font-size: 25px;
 }
 .sub-text-2 input{
-  margin-left: 3.5em;
+  margin-right: 1.3em;
+  width:auto;
 }
 .sub-text {
   margin-top: 1.5em;
 }
+.sub-text p {
+      font-size: 1.5vw;
+}
 .sub-text-2{
-  padding-left: 21em;
+  text-align: right;
+
+}
+.sub-text-2 p{
+    font-size: 1.5vw;
 }
 .sub-text-2 input:hover{
   color: #0D1926;
@@ -1741,13 +1750,13 @@ margin-top: 1rem;
     top:0;
     text-align: center;
     padding: 0 0 0 1.5em;
-    font-size:20px;
+    font-size:4vw;
   }
   .text-bot{
     top:auto;
     text-align: center;
     padding: 0;
-    font-size: 20px;
+    font-size: 4vw;
     max-height:inherit;
   }
   .sub-text p{
